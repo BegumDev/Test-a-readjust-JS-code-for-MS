@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+* {
+    color: #0e0202;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* 
+/* Index.html page */
+/*==================================================================*/
+/*_________________________________Header Styling____________________*/
+.logo {
+    border: 4px solid #3DA4BE;
+    background-color: #3DBE98;
+    width: 100%;
+}
+
+.logo h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #861111;
+}
+
+.menu {
+    height: 100px;
+    text-align: center;
+    border: 4px solid red;
+}
+
+.menu li {
+    list-style: none;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #0e0202;
+}
+
+
+/*_________________________________Game Area Styling____________________*/
+.modal-container {
+    background-color: rgba(61, 164, 190, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-msg {
+    background: linear-gradient(#3DA4BE, #3DBE57);
+    border: 4px solid #983DBE;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.modal-msg,
+h2 h3 {
+    width: 80%;
+}
+
+.introBtn {
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 220px;
+    font-size: 30px;
+    padding: 8px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.instructions {
+    width: 70%;
+    text-align: center;
+    border: 4px solid #3DBE57;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #3DA4BE;
+    display: none;
+}
+
+.close {
+    float: right;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    margin-top: -20px;
+    margin-right: -15px;
+    opacity: 50%;
+    font-size: 12px;
+    color: #0e0202;
+}
+
+.help-btn {
+    display: block;
+    border: 2px solid #983DBE;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #3DBE57;
+}
+
+.restart-btn {
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    width: 110px;
+    margin-top: 20px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.game-box {
+    width: 80%;
+    height: 600px;
+    background: linear-gradient(#3DBE98, #983DBE);
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 70%;
+    border-radius: 30px;
+    border: 4px solid #983DBE;
+}
+
+.time-box {
+    border: 4px solid #3D63BE;
+    background-color: #ffffff;
+    height: 90px;
+    width: 75px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 8px;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.timer {
+    font-size: 30px;
+}
+
+.word-display {
+    font-size: 40px;
+    border: 4px solid #dda8a8;
+    border-radius: 30px;
+    height: 100px;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.word-input {
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    border: 4px solid #573DBE;
+    border-radius: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.message {
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.testimonials {
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    border: 2px solid #3D63BE;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+.hScore{
+    font-size: 30px;
+}
+
+
+/* Contact page */
+/*==================================================================*/
+
+.contact-msg {
+    text-align: center;
+    width: 80%;
+    border: 4px solid #573DBE;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.contact-form {
+    width: 80%;
+    height: 650px;
+    border: 3px solid #3DA4BE;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    background: linear-gradient(#3DBE98, #983DBE);
+    margin-bottom: 40px;
+}
+
+label {
+    margin: 10px;
+}
+
+.name,
+.email,
+.text-area {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+#submit-email {
+    border-radius: 30px;
+    width: 140px;
+}
+
+.map-msg{
+    text-align: center;
+    width: 70%;
+    border: 4px solid #573DBE;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#map {
+    height: 200px;
+    width: 300px;
+    border: 4px solid grey;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(#3DBE57, #3DBE98);
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+footer a {
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+/*********************************************/
+
+/*_________________MEDIA QUERIES_______________*/
+
+@media screen and (min-width:427px) and (max-width: 768px) {
+    /* _______________________Homepage________________________*/
+
+    .help-btn {
+        font-size: 30px;
+        width: 220px;
+    }
+
+    .time-box {
+        margin-left: 60px;
+    }
+
+    .word-display {
+        padding: 5px;
+        margin-top: 25px;
+        margin-right: 40px;
+        width: 60%;
+        font-size: 50px;
+    }
+
+    .word-input {
+        height: 70px;
+        width: 85%;
+        font-size: 30px;
+    }
+
+    .message {
+        font-size: 35px;
+    }
+
+    #score {
+        margin-bottom: 40px;
+    }
+
+    .restart-btn {
+        margin-top: 40px;
+        font-size: 30px;
+        width: 180px;
+    }
+
+    /* _______________________Contact________________________*/
+    .contact-form {
+        height: 900px;
+    }
+
+    label {
+        font-size: 30px;
+    }
+
+    input {
+        font-size: 30px;
+    }
+
+    .text-area {
+        width: 300px;
+        height: 400px;
+    }
+
+    #submit-email {
+        margin-top: 20px;
+    }
+
+    #map {
+        height: 350px;
+        width: 450px;
+    }
+
+}
+
+/*===========================================================*/
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+    /*---------------------------Homepage-------------------*/
+    .help-btn {
+        font-size: 30px;
+        width: 250px;
+    }
+
+    .game-box {
+        height: 550px;
+    }
+
+    .word-display {
+        margin-right: 70px;
+        margin-left: 70px;
+        width: 80%;
+    }
+
+    .word-input {
+        height: 70px;
+        font-size: 30px;
+    }
+
+    /*---------------------------Contact Page-------------------*/
+
+    .contact-form {
+        width: 70%;
+    }
+
+    label {
+        text-align: center;
+        width: 100%;
+    }
+
+    #submit-email {
+        margin-top: 20px;
+    }
+}
+
+/*---------------------------Homepage-------------------*/
+@media screen and (min-width: 1025px) and (max-width:1498px) {
+
+    .help-btn {
+        font-size: 30px;
+        width: 240px;
+    }
+
+    .game-box {
+        width: 50%;
+    }
+
+    .word-display {
+        margin-top: 20px;
+        margin-right: 40px;
+        margin-left: 10px;
+        width: 70%;
+    }
+
+    .word-input {
+        font-size: 40px;
+        height: 70px;
+    }
+
+    /* _______________________Contact________________________*/
+
+    .contact-form {
+        width: 60%;
+    }
+
+    label {
+        text-align: center;
+        width: 100%;
+    }
+
+    #submit-email {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1499px) and (max-width:2560px) {
+
+    .help-btn {
+        font-size: 30px;
+        width: 260px;
+    }
+
+    .game-box {
+        height: 600px;
+        width: 50%;
+    }
+
+    .word-display {
+        margin-top: 40px;
+        font-size: 50px;
+    }
+
+    .time-box {
+        height: 110px;
+        width: 110px;
+        font-size: 30px;
+    }
+
+    .timer {
+        font-size: 35px;
+    }
+
+    .word-input {
+        height: 80px;
+        font-size: 40px;
+    }
+
+    .message {
+        font-size: 40px;
+    }
+
+    #score {
+        font-size: 60px;
+    }
+
+    .restart-btn {
+        font-size: 30px;
+        width: 250px;
+    }
+
+    .next-level{
+        font-size: 30px;
+        width: 250px;
+    }
+
+    /*=====================================================*/
+    .contact-form {
+        width: 40%;
+    }
+
+    label {
+        width: 100%;
+    }
+}
